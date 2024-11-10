@@ -2,7 +2,7 @@
 
 This Python script detects stars from an image using the Laplacian of Gaussian method. It loads an image, applies preprocessing (grayscale conversion, Gaussian blur, and binary thresholding), and then detects blobs using `skimage.feature.blob_log`. The detected blobs are then visualized by overlaying circles on the blobs' positions.
 
-![Alt text](GUI.png)
+![Alt text](result.png)
 
 ## Requirements
 
